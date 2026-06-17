@@ -4,9 +4,9 @@ Attempts to dump firmware from a Nuvoton MS51 (1T 8051 MCU) via **ICP** (In-Circ
 
 ## Board
 
-![Board top](https://photos.fife.usercontent.google.com/pw/AP1GczNKi3WFrrLdX-q_2sbdkwE9FwFy1D3cqQ8TFaVRiSGYF9L8HCabtXBCuw=w1101-h1463-s-no-gm?authuser=0)
-![Board bottom](https://photos.fife.usercontent.google.com/pw/AP1GczPF-ziFjVcIkD5HZuDfgKpZfBZuGbzex_Tz0Kn4KQJLROJXZtM_8_RVzg=w1101-h1463-s-no-gm?authuser=0)
-![Board detail](https://photos.fife.usercontent.google.com/pw/AP1GczN-HoLHQUnUPS4OmefHKUGm-dTj7LJCTg8cMhBlJx6zGA5yHiRrpJcy8w=w1943-h1463-s-no-gm?authuser=0)
+![Board top](docs/images/board-top.jpg)
+![Board bottom](docs/images/board-bottom.jpg)
+![Board detail](docs/images/board-detail.jpg)
 
 
 ## ⚠️ Current Status: ICP Entry Not Working
