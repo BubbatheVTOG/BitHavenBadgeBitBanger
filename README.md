@@ -2,6 +2,13 @@
 
 Attempts to dump firmware from a Nuvoton MS51 (1T 8051 MCU) via **ICP** (In-Circuit Programming) using an ESP32-C6 as a bit-banged programmer.
 
+## Board
+
+![Board top](https://photos.fife.usercontent.google.com/pw/AP1GczNKi3WFrrLdX-q_2sbdkwE9FwFy1D3cqQ8TFaVRiSGYF9L8HCabtXBCuw=w1101-h1463-s-no-gm?authuser=0)
+![Board bottom](https://photos.fife.usercontent.google.com/pw/AP1GczPF-ziFjVcIkD5HZuDfgKpZfBZuGbzex_Tz0Kn4KQJLROJXZtM_8_RVzg=w1101-h1463-s-no-gm?authuser=0)
+![Board detail](https://photos.fife.usercontent.google.com/pw/AP1GczN-HoLHQUnUPS4OmefHKUGm-dTj7LJCTg8cMhBlJx6zGA5yHiRrpJcy8w=w1943-h1463-s-no-gm?authuser=0)
+
+
 ## ⚠️ Current Status: ICP Entry Not Working
 
 Despite the implementation matching the proven [NuMicro-8051-prog](https://github.com/nikitalita/NuMicro-8051-prog) reference, ICP entry fails: device ID reads **0xFFFF** (chip not driving DAT) or **0x0000** (DAT floating low without pull-ups). The software is believed correct; the issue is hardware.
