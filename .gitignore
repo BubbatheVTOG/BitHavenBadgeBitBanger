@@ -1,0 +1,41 @@
+# PlatformIO
+.pio/
+.vscode/
+.idea/
+
+# ESP-IDF
+build/
+sdkconfig.old
+dependencies.lock
+
+# Build artifacts
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+# Generated files
+compile_commands.json
+.ccls-cache/
+.cache/
+
+# Logs and captures
+*.log
+capture.log
+dump.hex
+firmware.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*~
+*.swp
+*.swo
